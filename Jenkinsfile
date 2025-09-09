@@ -2,7 +2,7 @@ pipeline {
   agent any
   
   stages {
-    stage('GIT REPO PULL') {
+    stage('Git repo pull') {
       steps {
         script {
           // creating a directory 
